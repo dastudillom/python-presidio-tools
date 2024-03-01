@@ -62,7 +62,7 @@ def ExtractFileMetadata(FilePathList):
             'edf_name': edf_name,
             'h5_name': h5_name,
             'edf_start': edf_start,
-            'edf_stop': edf_stop,
+            'edf_end': edf_stop,
             'edf_duration': edf_duration,
             'edf_nsample': edf_nsample,
             'edf_sfreq': edf_sfreq,
