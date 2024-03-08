@@ -47,7 +47,7 @@ def ExtractFileMetadata(FilePathList):
 
         ##Create name of future h5 file:
         date_string  = raw_start.strftime('%Y%m%d')
-        time_string  = raw_start.strftime('%H%M')
+        time_string  = raw_start.strftime('%H%M%S')
         h5_string    = f'sub-{patient_id}_ses-stage1_task-continuous_acq-{date_string}_run-{time_string}_ieeg.h5'
         edf_name.append(str(FilePathList[i]).split("/")[-1])
         h5_name.append(h5_string)
